@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  empname: MyString
+  empid: 1
+  taskid: 1
+
+two:
+  empname: MyString
+  empid: 1
+  taskid: 1

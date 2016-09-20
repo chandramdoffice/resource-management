@@ -1,0 +1,21 @@
+<h1>New employee</h1>
+<%= form_for :employee,  url: employee_path do |f| %>
+  <p>
+    <%= f.label :empname %><br>
+    <%= f.text_field :empname %>
+  </p>
+ 
+  <p>
+    <%= f.label :empid %><br>
+    <%= f.text_area :empid %>
+  </p>
+  
+   <p>
+    <%= f.label :taskid %><br>
+    <%= f.text_area :taskid %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
